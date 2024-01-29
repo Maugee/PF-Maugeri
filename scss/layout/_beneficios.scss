@@ -1,0 +1,128 @@
+main{
+    background-color: rgba(255, 228, 196, 0.507);
+    .main{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    h2{
+        text-align: center;
+        padding: 1.25rem;
+        text-transform: uppercase;
+        color: rgb(53, 18, 18);
+    }
+
+    .cards{
+        width: 15%;
+        padding: 1.25rem;
+    }
+
+    .cards-img{
+        width: 60%;
+        height: 10vh;
+        margin-top: 1.25rem;
+        margin-left: 20%;
+    }
+    
+    h5{
+            text-align: center;
+            color: rgb(39, 10, 10);
+    }
+
+    h4{
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        background-image: linear-gradient(rgb(126, 89, 58), rgb(70, 38, 1));
+        font-size: 1rem;
+        margin-left: 5%;
+        &:hover{
+            transform: scale(1.2);
+            background-color: white;
+            font-size: 1.125rem;
+            margin-top: 20px;
+        }
+    }
+
+    .grid{
+        display: grid;
+        width: 30%;
+        grid-template-columns: repeat(5);
+        grid-template-rows: repeat(2);
+        text-align: center;
+        border: 2px solid rgb(126, 89, 58) ;
+        background-image: linear-gradient(to bottom, rgb(90, 66, 51), rgb(184, 143, 109));
+        margin-left: 35%;  
+        margin-top: 3.125rem;
+        color: white;
+    }
+    .plan{
+        grid-column: 1 / 5;
+        grid-row: 1 ;
+        @include color;
+    }
+    
+    .dias{
+        grid-column: 1 / 2 ;
+        grid-row: 2 ;
+        @include color;
+    }
+    
+    .poco{
+        grid-column: 2 / 3 ;
+        grid-row: 2 ;
+        @include color;
+    }
+    
+    .intermedio{
+        grid-column: 3 / 4 ;
+        grid-row: 2 ;
+        @include color;
+    }
+    
+    .mucho{
+        grid-column: 4 / 5 ;
+        grid-row: 2 ;
+        @include color;
+    }
+}
+
+.footer-beneficios{
+    background-color: $BackgroundPrincipal;
+    height: 25vh;
+    text-align: center;
+
+
+    div{
+        margin-left: 38%;
+    }
+    
+    h3{
+        margin-top: 1.25rem;
+        font-size: 1.375rem;
+        text-align: center;
+        color: rgb(53, 18, 18);
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+    form{
+        display: inline-block;
+        margin-bottom: 15%;
+        background-color: rgba(0, 0, 0, 0.267);
+        padding: .625rem;
+    }
+    input{
+        padding: .3125rem 3.75rem;
+        background-color:  white;
+        border: 2px solid white ;
+    }
+    button{
+        background-color: white;
+        padding:  .3125rem 2.5rem;
+        border: 2px solid white;
+    }
+    .lupa{
+        width: 50%;
+    }
+}

@@ -1,0 +1,21 @@
+// Partials variables mixin y funciones
+
+@import "./utilities/functions";
+@import "./utilities/maps";
+@import "./utilities/mixins";
+@import "./utilities/variables";
+
+// Partials layout y base
+
+@import "./base/reset";
+@import "./layout/index";
+@import "./layout/beneficios";
+@import "./layout/contactos";
+@import "./layout/inicio-sesion";
+@import "./layout/crear-cuenta";
+
+@import "./layout/media/media1440";
+@import "./layout/media/media1024";
+@import "./layout/media/media768";
+@import "./layout/media/media425";
+@import "./layout/media/media375";

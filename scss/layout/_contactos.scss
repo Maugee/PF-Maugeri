@@ -1,0 +1,60 @@
+.main-contactos{
+    display: flex;
+    flex-direction: row;
+    background-color: $BackgroundSecundario;
+    height: 100vh;
+    
+    h2{
+        -webkit-text-fill-color: black;
+    }
+
+
+    h5{
+        color: black;
+        text-align: start;
+    }
+
+    div{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+        margin-left: 15%;
+        gap: .625rem;
+    }
+
+    iframe{
+        width: 37.5rem;
+        height: 25rem;
+        margin-left: 15%;
+        margin-top: 5%;
+    }
+
+    .cm{
+        margin-right: .625rem;
+    }
+
+    a{
+        color: black;
+        &:hover{
+            color: bisque;
+        }
+    }  
+    .a-num{
+        margin-left: 2.5rem;
+    }
+
+}
+
+.footer-contactos{
+    .fixed{
+        position: fixed;
+        width: 55px;
+        height: 55px;
+        line-height: 50px;
+        bottom: 30px;
+        right: 30px;
+        background: white;
+        border-radius: 50px;
+        text-align: center;
+    }
+}

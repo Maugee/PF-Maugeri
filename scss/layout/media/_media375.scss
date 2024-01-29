@@ -1,0 +1,87 @@
+@media (max-width: 375px){
+    // INDEX
+    main{
+        h3{
+            font-size: 1.875rem;
+        }
+        .card{
+            height: 50vh;
+        }
+        form{
+            padding: .3125rem;
+        }
+        input{
+            padding: .3125rem 5px;
+        }
+        button{
+            padding: .3125rem .625rem;
+        }
+        .lupa{
+            width: 50%;
+        }
+    }
+    footer{
+        height: 50vh;
+    }
+
+    // BENEFICIOS
+    
+    main{
+        .cards-img{
+            height: 10%;
+            margin-top: 1.875rem;
+        }
+        .cards{
+            width:30%;
+            padding: .625rem;
+            p{
+                font-size: .75rem;
+            }
+        }
+        h5{
+            font-size: 15px;
+        }
+        h4{
+            font-size: .625rem;
+            &:hover{
+                font-size: .875rem;
+                margin-top: 1.5625rem;
+            }
+        }
+
+        .grid{
+            font-size: 12px;
+        }
+    }
+    .footer-beneficios{
+        h3{
+            font-size: 18px;
+        }
+    }
+
+    // INICIAR
+
+    .main-inicio{
+
+        h2{
+            font-size: 1rem;
+        }
+        .img-cafe{
+            width: 120px;
+        }
+        section{
+            padding: 250px 1px;
+            margin-right: 5%;
+            margin-left: 2%;
+        }
+        form{
+            margin-right: 30px;
+        }
+        input{
+            margin-right: 5px;
+        }
+        h3{
+            font-size: 1rem;
+        }
+    }
+}

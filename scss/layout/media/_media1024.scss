@@ -1,0 +1,60 @@
+@media (max-width: 1024px){
+    // INDEX
+    main{
+        .card{
+            height: 70vh;
+        }
+        h3{
+            font-size: 2.5rem;
+            margin-bottom: 30%;
+        }
+    }
+    footer{
+        height: 25vh;
+        div{
+            margin-left: 10%;
+        }
+    }
+
+    // BENEFICIOS   
+    main{
+        .cards{
+            width: 20%;
+        }
+        .grid{
+            width: 40%;
+            margin-left: 30%;
+        }
+    }
+
+    .footer-beneficios{
+        div{
+            margin-left: 30%; 
+        }
+        input{
+            padding: .3125rem 2.5rem;
+        }
+    }
+
+    // contactos
+    .main-contactos{
+        div{
+            margin-left: 5%;
+        }
+        h5{
+            font-size: 18px;
+        }
+        iframe{
+            margin-left: 5%;
+            width: 31.25rem;
+        }
+    }
+
+    // inicio
+    .main-inicio{
+        section{
+            margin-left: 15%;
+        }
+    }
+
+}
